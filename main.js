@@ -1,0 +1,4 @@
+
+cat.addEventListener('mousemove', (event) => {
+  
+});
