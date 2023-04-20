@@ -9,12 +9,12 @@ document.addEventListener('mousemove', (event) => {
     // const y = event.clientY;
     // console.log('x: ' + `${event.clientX - 10}`);
     // console.log('y: ' + `${event.clientY - 10}`);
-    document.querySelector("#pet").style.top = `${event.clientY - 10}px`;
-    document.querySelector("#pet").style.left = `${event.clientX - 10}px`;
+    document.querySelector("#pet").style.top = `${event.clientY - 2}px`;
+    document.querySelector("#pet").style.left = `${event.clientX - 2}px`;
 });
 
 // array of #pet src values
-const pets = ['pug.gif', 'fish.gif', 'rat.gif', 'bird.gif', 'cat.gif', 'butterfly.gif', 'frog.gif'];
+const pets = ['pug.gif', 'fish.gif', 'rat.gif', 'bird.gif', 'cat.gif', 'butterfly.gif', 'frog.gif', 'bunny.gif'];
 
 let changePet = true;
 
